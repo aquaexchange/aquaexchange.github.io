@@ -1,0 +1,26 @@
+body {
+	background: url("https://2dbdd5116ffa30a49aa8-c03f075f8191fb4e60e74b907071aee8.ssl.cf1.rackcdn.com/15078941_1475620539.7045.jpg")
+}	
+header {
+	text-align: center;
+}
+
+header ul {
+	padding: 10px;
+}
+
+header li {
+	display: inline;
+	padding: 0px 65px 0px 65px;
+}
+
+header a { 
+	color: white;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	padding: 320px 0 0 0;
+	font-size: 80px;
+}
