@@ -34,8 +34,9 @@
 	font-weight: bold;
 }
 .jumbotron h2 {
-	font: helvetica;
-	font-style: italic;
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	font-size: 50px;
 	color: DeepSkyBlue;
 
 }
