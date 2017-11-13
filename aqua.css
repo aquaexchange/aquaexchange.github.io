@@ -33,7 +33,9 @@
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
 }
-h2{
-	font-style: cursive;
+.jumbotron h2 {
+	font: helvetica;
+	font-style: italic;
 	color: DeepSkyBlue;
+
 }
