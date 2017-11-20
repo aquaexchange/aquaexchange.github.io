@@ -1,36 +1,80 @@
 
-.jumbotron h1 {
+#dot {
 	text-align: center;
-	padding: 320px 0 0 0;
-	font-size: 80px;
+	padding: 0px 0 80px 0;
+	font-size: 90px;
 	color: DeepSkyBlue;
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
-	background: rgba(77,88,99,0.7);
-
+	text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
 }
 
-.jumbotron {
-	min-height: 600px;
-	background-image: url("https://2dbdd5116ffa30a49aa8-c03f075f8191fb4e60e74b907071aee8.ssl.cf1.rackcdn.com/15078941_1475620539.7045.jpg"); 
-	background-size:cover; 
-	background-attachment: fixed;
+#dot1 {
+	text-align: center;
+	font-size: 90px;
+	color: DeepSkyBlue;
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
+}	
+
+#tag-line {
+	font-size: 26px;
+	padding: 0px 0 90px 0;
+	color: DeepSkyBlue;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Cabin', sans-serif;
 
 }
+.container-fluid{
+	margin:0 ;
+	padding:0 ! important;
+}
 
-.navbar_navbar-inverse_navbar-fixed-top{
-	background: DeepSkyBlue;
+
+.navbar {
+	background-color: DeepSkyBlue;
 	color: white;
+	border-color: DeepSkyBlue;
 
 }
+
+.navbar-inverse .navbar-toggle {
+	border-color: white;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: DeepSkyBlue;
+}
+
+
 .navbar-brand {
-	color: SlateGrey;
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
+	color:white;
 }
-.navbar_navbar-inverse_navbar-fixed-top li a{
-	color: LightCyan;
+
+.alpha li a{
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
+	text-align: right;
 }
+.carousel{
+	width: 100%;
+	max-height: 530px;
+	margin:0;
+	padding: 0;
+
+}
+.carousel-inner{
+  /*width:100%;*/
+  max-height: 530px;
+  max-width: 1000px;
+}
+
+.bar_prob {
+	width: 1000px;
+}
+
+
 
