@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<title>Aqua Exchange</title>
 	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
-	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
-	<link rel="stylesheet" type= "text/css" href="./stylesheets/aqua.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" type= "text/css" href="./stylesheets/aqua.css">
 </head>	
 
 
 <body>
 	<nav class="navbar_navbar-inverse_navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Aqua Exchange</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About Us</a></li>
-            <li><a href="#about">Facts</a></li>
-            <li><a href="#quiz">Quiz</a></li>
-            <li><a href="#directors">Directors</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Aqua Exchange</a>
       </div>
-    </nav>
-	<div class ='jumbotron'>
-	  <div class ='container'>
-	    <div class='row'>
-	      <div class="col-md-12">
-	        <h1>Aqua Exchange</h1>
-          <h2 class="text-center">...because clean water should be accessible to all</h2>
-        </div>
-      	</div> 
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"></a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#facts">Facts</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#directors">Directors</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
       </div>
-    </div>   
+    </div>
+  </nav>
+  <div class ='jumbotron'>
+   <div class ='container'>
+     <div class='row'>
+       <div class="col-md-12">
+         <h1>Aqua Exchange</h1>
+         <h2 class="text-center">...because clean water should be accessible to all</h2>
+       </div>
+     </div> 
+   </div>
+ </div>   
 
 <h2>About Us</h2>
 
+<<<<<<< HEAD
 <p> Aqua Exchange is a non-profit organisation bringing clean and safe drinking water to people in rural Sierra Leone.
 
 We believe that access to clean water changes everything. Improving health, education, and opportunity - especially for women and children.
@@ -70,3 +74,24 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	
  	
 </body>	
+=======
+ <div id="googleMap" style="width:100%;height:400px;">
+ </div>
+
+ <script>
+  function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9WcMWJ4mApNJuPUtR9SMq0cWQ5oDkWO4&callback=myMap">
+  
+</script> 	
+
+</body>
+</html>
+>>>>>>> 7f1936de5cec786ef039a53ae365177ddb0ecec2
