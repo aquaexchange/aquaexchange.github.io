@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109915304-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109915304-1');
+</script>
 	<title>Aqua Exchange</title>
 	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -46,17 +55,6 @@
      </div> 
    </div>
  </div> 
-      <div> 
-        <h1>Facts</h1>
-        <h3>
-          At Aqua Echange, we purify our water using UV Technology and sterilize our bottles using Gamma Rays
-
-          UV Technology or Ultraviolet Germicidal Irradiation (UVGI) is a disinfection method that uses short-wavelength ultraviolet (UV-C) light to kill or inactivate microorganisms by destroying nucleic acids and disrupting their DNA, leaving them unable to perform vital cellular functions
-
-          Gamma Rays (also called gamma radiation), are penetrating electromagnetic radiation of a kind arising from the radioactive decay of atomic nuclei
-        </h3>
-      </div>
-
 
 
 <h2>About Us</h2>
@@ -81,7 +79,41 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
+<<<<<<< HEAD
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+=======
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9WcMWJ4mApNJuPUtR9SMq0cWQ5oDkWO4&callback=myMap"></script>
+	
+ 	
+</body>	
+=======
+ <div id="googleMap" style="width:100%;height:400px;">
+ </div>
+
+ <script>
+  function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9WcMWJ4mApNJuPUtR9SMq0cWQ5oDkWO4&callback=myMap">
+
+</script> 
+
+      <div> 
+        <h1>Facts</h1>
+        <ul>
+          <li>At Aqua Echange, we purify our water using UV Technology and sterilize our bottles using Gamma Rays</li>
+          <li>UV Technology or Ultraviolet Germicidal Irradiation (UVGI) is a disinfection method that uses short-wavelength ultraviolet (UV-C) light to kill or inactivate microorganisms by destroying nucleic acids and disrupting their DNA, leaving them unable to perform vital cellular functions</li>
+          <li>Gamma Rays (also called gamma radiation), are penetrating electromagnetic radiation of a kind arising from the radioactive decay of atomic nuclei</li>
+        </ul>
+      </div>
+
+>>>>>>> b98db10c5d79df1e70817205a1b7520384a7d895
 
 </body>
 </html>
