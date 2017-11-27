@@ -98,8 +98,6 @@ iframe{
 }
 
 
-
-/* Add a hover effect if you want */
 .btn:hover {
     opacity: 0.7;
 }
@@ -117,4 +115,19 @@ iframe{
 #aboutus {
 	padding: 40px 0 10px 0 ;
 }
+
+#bypeople{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Codystar', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+}
+#bypeople:hover {
+	color: #ff0066;
+	font-size: 45px;
+	
+}
+
 
