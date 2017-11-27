@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Aqua Exchange</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src='bootstrap-3.3.7-dist/js/bootstrap.js' type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+	<link rel="stylesheet" type= "text/css" href="./stylesheets/aqua.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109915304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109915304-1');
+  </script>
+  <title>Aqua Exchange</title>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>	
+
+
+<body>
+  <audio src="Brahim_Fribgane_-_02_-_Amazigh.mp3" autoplay></audio>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-top alpha">
+      <div class="container" id="navbar-container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand active" href="#">Aqua Exchange</a>
+          </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#directors">Directors</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+      </div>
+  </nav>
+
+
+  <div class ='jumbotron'>
+   <div class ='container-fluid'>
+     <div class='row'>
+       <div class="col-md-12">
+         <a style ='text-decoration:none;' href='https://www.justgiving.com/wateraid'>
+            <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active slider-size">
+                        <picture>
+                            <img src="https://media2.fdncms.com/boiseweekly/imager/u/original/3808180/78nj6a0234.jpg" style="max-height: 500px; width: 100%; align-self: center;">
+                            <div class="carousel-caption">
+                              <h1 id="dot1">Aqua Exchange</h1>
+                              <h3 id="tag-line">...because clean water should be accessible to all</h3>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="item slider-size">
+                        <picture>
+                            <img src="https://bethmwangi.github.io/watotokumi/img/happy2.jpg" style ="max-height: 500px; width:100%;">
+                            <div class="carousel-caption">
+                              <h1 id="dot">Aqua Exchange</h1>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="item slider-size">
+                        <picture>
+                            <img src="http://www.lukenyapillarsoftransformation.org/wp-content/uploads/2016/10/African-Children-6-1.jpg" style="max-height: 500px; width: 100%;">
+                            <div class="carousel-caption">
+                              <h1 id="dot">Aqua Exchange</h1>
+                              <!-- <a href="Brahim_Fribgane_-_02_-_Amazigh.mp3">Play music</a> -->
+                            </div>
+                        </picture>
+                    </div>
+                </div>
+            </div>
+          </a>
+       </div>
+      </div> 
+    </div>
+  </div>  
+    
+  <div class ='container' id='aboutus'>
+     <div class='row'>
+       <div class="col-md-12">
+           <h2>About Us</h2>
+
+           <p> Aqua Exchange is a non-profit organisation bringing clean and safe drinking water to people in rural Sierra Leone.</p>
+
+           <p> We believe that access to clean water changes everything. Improving health, education, and opportunity - especially for women and children. </p>
+
+           <p> Our innovative UV technology disinfects empty water bottles, which are then filled with clean water and distributed to remote villages across Sierra Leone. </p>
+
+           <p> Getting involved has never been easier! Simply drop off your empty water bottles at one of our many locations across Freetown and help transform the lives of the local community. </p>
+
+           <div id="googleMap" style="width:100%;height:400px;">
+
+             <script>
+              function myMap() {
+                var mapCanvas = document.getElementById("googleMap");
+                var myCenter = new google.maps.LatLng(8.4675,-13.2340); 
+                var myCenter2 = new google.maps.LatLng(8.4750,-13.2450);
+                var myCenter3 = new google.maps.LatLng(8.4575,-13.2510); 
+                var myCenter4 = new google.maps.LatLng(8.4759,-13.2580);
+                var myCenter5 = new google.maps.LatLng(8.4690,-13.2310); 
+                var mapOptions = {center: myCenter, zoom: 14};
+                var map = new google.maps.Map(mapCanvas,mapOptions);
+                var marker = new google.maps.Marker({
+                  position: myCenter,
+                  animation: google.maps.Animation.BOUNCE
+                });
+                var marker2 = new google.maps.Marker({
+                  position: myCenter2,
+                  animation: google.maps.Animation.BOUNCE
+                });
+                var marker3 = new google.maps.Marker({
+                  position: myCenter3,
+                  animation: google.maps.Animation.BOUNCE
+                }); 
+                var marker4 = new google.maps.Marker({
+                  position: myCenter4,
+                  animation: google.maps.Animation.BOUNCE
+                }); 
+                var marker5 = new google.maps.Marker({
+                  position: myCenter5,
+                  animation: google.maps.Animation.BOUNCE
+                }); 
+                marker.setMap(map);
+                marker2.setMap(map);
+                marker3.setMap(map);
+                marker4.setMap(map);
+                marker5.setMap(map);
+              }
+            </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+        </div>
+      </div>
+    </div> 
+  </div>         
+
+  <!-- <div id = "facts"> -->
+    <div class ='container containerfact' id ='facts'>
+     <div class='row'>
+       <div class="col-md-12">
+        <h1 id="facts">Facts</h1>
+          <div class="divider"></div>
+          <h5>
+            <div class='row'>
+              <div class="text-center">
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg"> Sierra Leone is marked by the poorest standards of living. It has the seventh lowest life expectancy and one of the <a href="https://www.cia.gov/library/publications/the-world-factbook/rankorder/2091rank.html?countryName=Sierra%20Leone&countryCode=sl&regionCode=af&rank=14#sl">highest infant mortality rates in the world</a>. Seventy percent of the population <a href= "https://www.cia.gov/library/publications/the-world-factbook/fields/2046.html?countryName=Sierra%20Leone&countryCode=sl&regionCode=af&#sl">lives below the poverty line</a></div>
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg">Sierra Leoneans collect most of their drinking water from polluted sources. Pollutants and poor sanitation are attributed to some of the health problems in the country. Sierra Leone is one of the toughest countries to survive in. The <a href= "https://www.cia.gov/library/publications/the-world-factbook/rankorder/2102rank.html?countryName=Sierra%20Leone&countryCode=sl&regionCode=af&rank=198#sl">average life expectancy</a> for a Sierra Leonean is only 56 years. One of the lowest in the world, much of this statistic can be blamed on poor living conditions</div>
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg">Almost <a href="https://www.cia.gov/library/publications/the-world-factbook/rankorder/2091rank.html?countryName=Sierra%20Leone&countryCode=sl&regionCode=af&rank=14#sl">half</a> of the population is not using a protected water source for drinking. Most of the unsafe drinking sources are free standing water, such as ponds, and unprotected wells. <a href="https://apps.who.int/infobase/Mortality.aspx?l=&Group1=RBTCntyByRg&DDLCntyByRg=AFR&DDLCntyName=1001&DDLYear=2004&TextBoxImgName=go">Infections</a> and parasites, most found in contaminated water, lead to the largest cause of death in Sierra Leone </div>
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg">Poor sanitation generates high risk of hepatitis A and Typhoid fever. Stillwater breeds malaria-carrying mosquitoes that plague the region with one of the <a href= "http://www.who.int/whosis/mort/profiles/mort_afro_sle_sierraleone.pdf">most common deadly infections contracted in the area</a>. Overall, health and standard of living are poor </div>
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg">Hence, At Aqua Echange, we purify our water and sterilize our bottles using <a href= "https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation">UV Technology</a>. <a href= "https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation">UV Technology</a> or <a href= "https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation"> Ultraviolet Germicidal Irradiation (UVGI)</a> is a disinfection method that uses short-wavelength <a href= "https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation"> ultraviolet (UV-C) light</a> to kill or inactivate microorganisms by destroying nucleic acids and disrupting their DNA, leaving them unable to perform vital cellular functions.</div>
+                <div class="col-md-2"> <img src= "./Images/WaterDroplet.jpg"> <a href= "https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation"> UVGI </a> devices can produce strong enough UV-C light in circulating air or water systems to make them inhospitable environments to microorganisms such as bacteria, viruses, molds and other pathogens. The application of UVGI to disinfection has been an accepted practice since the mid-20th century</div>
+              </div>
+            </div>
+          </h5>
+        
+      </div> 
+    </div>
+  </div>
+    
+         
+
+  <div class ='container containerfact' id ='contact'>
+    <h1 id="contact">Contact Us</h1>
+     <div class='row'>
+       <div class="col-md-12">
+         <div class="text-center">
+            <h5>
+              <p>10 Cornmarket Street</p>
+              <p>Oxford</p>
+              <p>United Kingdom</p>
+              <p>OX1 1FZ</p>
+              <p>+44 (0) 7880 23784</p>
+              <p>info@aquaexchange.github.io</p>
+            </h5>
+            <button type="button" class="btn btn-small"> <a href="https://www.facebook.com"> <img src="./images/facebooklogo.png" style="max-height: 45px; max-width: 45px;"> </a> </button>
+            <button type="button" class="btn btn-small"> <a href="https://twitter.com"> <img src="./images/twitterlogo.png" style="max-height: 45px; max-width: 45px;"> </a> </button>
+            <button type="button" class="btn btn-small"> <a href="https://instagram.com"> <img src="./images/instagramlogo.jpeg" style="max-height: 45px; max-width: 45px;"> </a> </button>
+            <p>
+            </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdVe5LsfbN2u4PY11IVo4aq0ogl4ioe7lDzMn1euMqr6vlbQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </div>
+    </div>       
+  </div>
+
+  <div class = "containerbuttonsold">
+    <div class ='container'>
+      <div class='row'>
+        <!-- <div class="text-center">
+        <h5>
+          <p>10 Cornmarket Street</p>
+          <p>Oxford</p>
+          <p>United Kingdom</p>
+          <p>OX1 1FZ</p>
+          <p>+44 (0) 7880 23784</p>
+          <p>info@aquaexchange.github.io</p>
+        </h5>
+        <button type="button" class="btn btn-small"> <a href="https://www.facebook.com"> <img src="./images/facebooklogo.png"> </a> </button>
+        <button type="button" class="btn btn-small"> <a href="https://twitter.com"> <img src="./images/twitterlogo.png"> </a> </button>
+        <button type="button" class="btn btn-small"> <a href="https://instagram.com"> <img src="./images/instagramlogo.jpeg"> </a> </button> -->
+        <!-- <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+        <div class="col-md-4"> -->
+        </div>  
+      </div>
+    </div> 
+  </div>       
+
+</body>
+</html>
+

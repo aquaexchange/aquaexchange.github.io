@@ -1,46 +1,119 @@
 
-.jumbotron h1 {
+
+#dot {
 	text-align: center;
-	padding: 320px 0 0 0;
-	font-size: 80px;
+	padding: 0px 0 80px 0;
+	font-size: 90px;
 	color: DeepSkyBlue;
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
-	background: rgba(77,88,99,0.7);
+	text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
+}
+
+#dot1 {
+	text-align: center;
+	font-size: 90px;
+	color: DeepSkyBlue;
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
+}	
+
+#tag-line {
+	font-size: 26px;
+	padding: 0px 0 90px 0;
+	color: DeepSkyBlue;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Cabin', sans-serif;
 
 }
+.container-fluid{
+	margin:0 ;
+	padding:0 ! important;
+
+}
+
+
+
+.navbar {
+	background-color: DeepSkyBlue;
+	color: white;
+	border-color: DeepSkyBlue;
+
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: white;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: DeepSkyBlue;
+}
+
+
+.navbar-brand {
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	color:white;
+}
+
+.alpha li a{
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+.bar_prob {
+	width: 1000px;
+}
+
+
 
 .jumbotron {
-	min-height: 600px;
-	background-image: url("https://2dbdd5116ffa30a49aa8-c03f075f8191fb4e60e74b907071aee8.ssl.cf1.rackcdn.com/15078941_1475620539.7045.jpg"); 
-	background-size:cover; 
-	background-attachment: fixed;
-
-}
-
-.navbar_navbar-inverse_navbar-fixed-top{
-	background: DeepSkyBlue;
-	color: white;
-
-}
-.navbar-brand {
-	color: SlateGrey;
-	font-family: 'Codystar', cursive;
-	font-weight: bold;
-}
-.navbar_navbar-inverse_navbar-fixed-top li a{
-	color: LightCyan;
-	font-family: 'Codystar', cursive;
-	font-weight: bold;
-}
-.jumbotron h2 {
-	font-family: 'Dancing Script', cursive;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 50px;
-	color: DeepSkyBlue;
+	max-height:500px;
+	min-height:500px;
+	width:100%;
+	background: url("https://media2.fdncms.com/boiseweekly/imager/u/original/3808180/78nj6a0234.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
 	text-align: center;
-)
+
+}
+iframe{
+	color: deepskyblue;
+	align-self: center;
+}
+
+
+.containerbuttonsold {
+	padding: 30px 0px 30px 0;
+	background: DeepSkyBlue;
+	align-content: center;
+	margin: 0;
+}
+
+
+
+/* Add a hover effect if you want */
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn {
+	padding: 0px 0px;
+	border: 0;
+}
+
+
+.containerfact {
+	padding: 40px 0 50px 0 ;
+}
+
+#aboutus {
+	padding: 40px 0 10px 0 ;
+}
