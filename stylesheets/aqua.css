@@ -69,6 +69,7 @@ p{
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	background-color: DeepSkyBlue;
+
 }
 
 
@@ -82,14 +83,14 @@ p{
 	font-family: 'Codystar', cursive;
 	font-weight: bold;
 	text-align: right;
+	text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
 }
+
 
 
 .bar_prob {
 	width: 1000px;
 }
-
-
 
 .jumbotron {
 	max-height:500px;
@@ -169,4 +170,5 @@ iframe{
         display: none;
     }
 }
+
 
