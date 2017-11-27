@@ -162,3 +162,11 @@ iframe{
     border:7px solid DeepSkyBlue;
 }
 
+@media (max-width: 640px) 
+{
+    iframe
+    {
+        display: none;
+    }
+}
+
