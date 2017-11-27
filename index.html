@@ -84,14 +84,39 @@
       position: myCenter2,
       animation: google.maps.Animation.BOUNCE
     });
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("googleMap");
+  var myCenter = new google.maps.LatLng(8.4675,-13.2340); 
+  var myCenter2 = new google.maps.LatLng(8.4750,-13.2450);
+  var myCenter3 = new google.maps.LatLng(8.4575,-13.2510); 
+  var myCenter4 = new google.maps.LatLng(8.4759,-13.2580);
+  var myCenter5 = new google.maps.LatLng(8.4690,-13.2310); 
+  var mapOptions = {center: myCenter, zoom: 14};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  var marker2 = new google.maps.Marker({
+    position: myCenter2,
+    animation: google.maps.Animation.BOUNCE
+  });
     var marker3 = new google.maps.Marker({
       position: myCenter3,
       animation: google.maps.Animation.BOUNCE
     }); 
+    position: myCenter3,
+    animation: google.maps.Animation.BOUNCE
+  }); 
     var marker4 = new google.maps.Marker({
       position: myCenter4,
       animation: google.maps.Animation.BOUNCE
     }); 
+    position: myCenter4,
+    animation: google.maps.Animation.BOUNCE
+  }); 
     var marker5 = new google.maps.Marker({
       position: myCenter5,
       animation: google.maps.Animation.BOUNCE
@@ -102,8 +127,20 @@
     marker4.setMap(map);
     marker5.setMap(map);
   }
+    position: myCenter5,
+    animation: google.maps.Animation.BOUNCE
+  }); 
+  marker.setMap(map);
+  marker2.setMap(map);
+  marker3.setMap(map);
+  marker4.setMap(map);
+  marker5.setMap(map);
+}
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> 
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+ 
 
 <div>
   <h1 id="facts">Facts</h1>
