@@ -1,4 +1,5 @@
 
+
 #dot {
 	text-align: center;
 	padding: 0px 0 80px 0;
@@ -30,7 +31,9 @@
 .container-fluid{
 	margin:0 ;
 	padding:0 ! important;
+
 }
+
 
 
 .navbar {
@@ -59,22 +62,83 @@
 	font-weight: bold;
 	text-align: right;
 }
-.carousel{
-	width: 100%;
-	max-height: 530px;
-	margin:0;
-	padding: 0;
 
-}
-.carousel-inner{
-  /*width:100%;*/
-  max-height: 530px;
-  max-width: 1000px;
-}
 
 .bar_prob {
 	width: 1000px;
 }
 
 
+
+.jumbotron {
+	max-height:500px;
+	min-height:500px;
+	width:100%;
+	background: url("https://media2.fdncms.com/boiseweekly/imager/u/original/3808180/78nj6a0234.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+	text-align: center;
+	padding: 0px 0px 10px 10px;
+}
+h1{
+	text-align: center;
+}
+iframe{
+	color: deepskyblue;
+	align-self: center;
+}
+
+.fa {
+    padding: 20px;
+    /*font-size: 100px;*/
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.containerbuttons {
+	padding: 20px 0px 20px 0;
+	background: DeepSkyBlue;
+	align-content: center;
+	margin: 0;
+}
+
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #cc0000;
+    color: white;    
+}
+
+.fa-instagram {
+    background: #800000;
+    color: white;
+
+}
+
+.containerfact {
+	padding: 40px 0 50px 0 ;
+}
 
