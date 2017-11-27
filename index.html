@@ -116,7 +116,6 @@
                 var myCenter3 = new google.maps.LatLng(8.4575,-13.2510); 
                 var myCenter4 = new google.maps.LatLng(8.4759,-13.2580);
                 var myCenter5 = new google.maps.LatLng(8.4690,-13.2310);
-                var myCenter6 = new google.maps.LatLng(8.57,-13.2310); 
                 var mapOptions = {center: myCenter, zoom: 14};
                 var map = new google.maps.Map(mapCanvas,mapOptions);
                 var marker = new google.maps.Marker({
@@ -139,10 +138,6 @@
                   position: myCenter5,
                   animation: google.maps.Animation.BOUNCE
                 });
-                var marker6 = new google.maps.Marker({
-                  position: myCenter6,
-                  icon:"./Images/Zeewater.png"
-                }); 
                 marker.setMap(map);
                 marker2.setMap(map);
                 marker3.setMap(map);
